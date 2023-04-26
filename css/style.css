@@ -177,44 +177,31 @@ img {
 
 footer div {
   height: 100%;
-  font-family: 'Mansalva', cursive;
+  font-family: 'Figtree', sans-serif;
   font-size: 14px;
   display: flex;
   align-content: center;
-  padding: 10px 20px;
-  color: #ffffff;
-}
-
-footer {
-  background-color: whitesmoke;
-  height: 60px;
-  padding: 30px 10%;
-  width: auto;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255, 0.5);
 }
 
-.footer-links {
-  list-style: none;
-  text-align: center;
-  width: auto;
-  position: relative;
+.copyright {
+  margin: auto 0;
 }
 
-.footer-link-li {
-  display: inline-block;
-  position: relative;  
+.icons {
+  list-style-type: none;
+  display: inline-flex;
 }
 
-.footericonlink {
-  display: block;
-  text-decoration: none;
+.icons a {
+  margin: 0 8px;
+  color: rgb(255, 255, 255, 0.5);
 }
 
-.footer-link-li img {
-  width: 20px;
-  height: 20px; 
+.icons a:hover {
+  color: rgb(255, 255, 255, 0.8);
 }
 
 @media all and (max-width:700px) {
