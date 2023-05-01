@@ -110,22 +110,14 @@ img {
   top:1px;
 }
 
-.recipe {
+.project {
   background: #eee;
   border-radius: 15px;
   width: 100%;
   padding: 1rem;
 }
 
-.a {
-
-}
-
-.c {
-
-}
-
-.recipe:hover {
+.project:hover {
   cursor: pointer;
   transform: scale(1.03);
   transition: all 0.5s ease;
